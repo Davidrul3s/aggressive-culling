@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "aggressive_culling",
+  "version": "${version}",
+  "name": "Aggressive Culling",
+  "description": "Skips rendering of entities, block entities and particles beyond the render distance.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "aggressive_culling.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17"
+  }
+}
